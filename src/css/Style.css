@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900');
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+
+input {
+	color: rgba(120, 120, 120, .8);
+	border-style: none;
+	border-radius: .5rem;
+	padding: .5rem;
+	background-color: #fff;
+	font-weight: 100;
+}
+
+input::placeholder {
+	color: #444;
+	opacity: .6;
+	font-weight: 100;
+}
+
+textarea {
+	color: rgba(120, 120, 120, .8);
+	border-style: none;
+	border-radius: .5rem;
+	padding: .5rem;
+	background-color: #fff;
+	font-size: .8rem;
+	font-weight: 100;
+}
+
+textarea::placeholder {
+	color: #444;
+	opacity: .6;
+	font-weight: 100;
+}
+
+button {
+	color: rgba(120, 120, 120, .8);
+	border-style: none;
+	border-radius: 1rem;
+	padding: .5rem;
+	width: 7rem;
+	cursor: pointer;
+	font-family: 'Work Sans', sans-serif;
+	background-color: #fff;
+	font-size: .9rem;
+	font-weight: 400;
+}
+
+button:hover {
+	color: #fff;
+	background-color: rgba(68, 105, 93, .3);
+}
+
+button:active {
+	color: #fff;
+	background-color: #44695D;
+}
+
+.all {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1rem;
+}
+
+.squarePop {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	border-radius: 1rem;
+	background-color: rgba(68, 105, 93, .6);
+	width: 20rem;
+	height: 27rem;
+}
+
+.btnsCont {
+	position: absolute;
+	flex-direction: row;
+	margin-top: 1.5rem;
+}
+
+.createBtn,
+.listBtn {
+	margin: .5rem .25rem 1rem .25rem;
+}
+
+.createBtn:hover,
+.listBtn:hover {}

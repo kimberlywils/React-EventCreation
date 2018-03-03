@@ -1,0 +1,78 @@
+.titles {
+	margin-left: .5rem;
+	margin-top: 1rem;
+	margin-bottom: .1rem;
+}
+
+.eventsAll {
+	position: absolute;
+	flex-direction: column;
+	margin-top: 4rem;
+}
+
+.eventInp {
+	width: 14rem;
+	padding-bottom: 2rem;
+	overflow: scroll;
+}
+
+.timeAllInp {
+	display: flex;
+	flex-direction: row;
+}
+
+.hourInp {
+	width: 2.5rem;
+	margin: 0rem .2rem 0rem 0rem;
+}
+
+.minuteInp {
+	width: 2.5rem;
+	margin: 0rem 0rem 0rem .2rem;
+}
+
+.timeB {
+	margin-top: .3rem;
+}
+
+.imgsAllCont {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1rem;
+}
+
+.imgsCont {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.imgsCont > div > img {
+	width: 4rem;
+}
+
+.iconImgs {
+	margin-top: .4rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	border-radius: 5rem;
+	width: 3rem;
+	height: 3rem;
+	cursor: pointer;
+}
+
+.iconImgs:hover {
+	background-color: #44695D;
+}
+
+.makeBtnCont {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.createEventBtn {}
