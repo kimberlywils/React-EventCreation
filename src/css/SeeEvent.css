@@ -24,6 +24,11 @@
 	margin-top: -2rem;
 }
 
+.eventHolder {
+	height: 15rem;
+	overflow: scroll;
+}
+
 .eventFiltInp {}
 
 .allEventsList {}

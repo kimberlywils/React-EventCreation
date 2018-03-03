@@ -65,7 +65,7 @@ class MDisplay extends Component {
         
       <div className='displayAllEvents'>
         <input className='eventFiltInp' type='text' onChange= {this.filterEvents} placeholder='filter'/>
-        <div>
+        <div className='eventHolder'>
             {allEvents}
         </div>
     
